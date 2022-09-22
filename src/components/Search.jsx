@@ -74,9 +74,9 @@ class Search extends Component {
               className="with-gap"
               name="group1"
               type="radio"
-              data-type="serial"
+              data-type="series"
               onChange={this.handleFilter}
-              checked={this.state.type === "serial"}
+              checked={this.state.type === "series"}
             />
             <span>Серіали</span>
           </label>
