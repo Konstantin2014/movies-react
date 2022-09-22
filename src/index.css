@@ -38,3 +38,11 @@ nav {
 .search-btn:focus {
   background-color: #ef5350;
 }
+
+label:not(:last-child) {
+  margin-right: 1rem;
+}
+
+label {
+  color: #c62828;
+}
